@@ -15,8 +15,8 @@ body{
     font-family: "Poppins", serif;
 
 }
-a,span{
-    display: block;
+a{
+    display: inline-block;
     text-decoration: none;
 }
 .banner-wrapper,
@@ -31,21 +31,26 @@ footer{
     padding: 100px 0px;
 }
 h1{
-    font-size: 37px;
+    font-size: 32px;
     font-weight: 600;
 }
 h2{
-    font-size: 35px;
-    font-weight: 600;
-}
-h3{
-    font-size: 42px;
-    font-weight: 600;
-}
-h4{
     font-size: 28px;
     font-weight: 600;
 }
+h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+p{
+    font-size: 12px;
+}
+
+
 ul{
     list-style:  none;
     display: inline-block;
@@ -72,6 +77,14 @@ ul{
 .design-header{
     margin-bottom: 150px;
 }
+.design-wrapper img{
+    width: 100%;
+}
+
+/* .design-wrapper .hide{
+    font-size: 10px !important;
+    
+} */
 .design-wrapper > div:nth-child(1)> div,
 .design-wrapper > div:nth-child(2)> div{
     padding: 40px 20px 0px 20px;
@@ -89,6 +102,7 @@ ul{
     border-radius: 30px;
 }
 
+
 /* decent */
 
 .decent-wrapper-box > div{
@@ -97,6 +111,9 @@ ul{
     padding: 20px 20px 0px 20px;
     border-radius: 30px;
     /* box-shadow:  10px  rgb(0, 0, 0, 0.2); */
+}
+.decent-wrapper-box p {
+    font-size: 10px;
 }
 
 /* price  */
@@ -171,6 +188,12 @@ footer{
     background-color: #1A284E;
     color: #ffffff;
 }
+/* .footer-box1 > div{
+
+} */
+.footer-box2 span{
+    font-size: 10px;
+}
 .footer-box1 > span{
     font-size: 18px;
     font-weight: 700;
@@ -182,13 +205,24 @@ footer{
     margin-bottom: 30px;
 }
 @media only screen and (min-width : 576px){
+    p{
+        font-size: 16px;
+    }
+    
+    
     .design-wrapper > div:nth-child(3) > div > div img{
         width: 100%;
+    }
+    .decent-wrapper-box p {
+        font-size: 16px;
     }
 
     .work-wrapper > div:nth-child(2) span{
         display: block;
         
+    }
+    .footer-box2 span{
+        font-size: 16px;
     }
 }
 
@@ -235,6 +269,14 @@ footer{
     }
     h2{
         font-size: 48px;
+    }
+    h3{
+        font-size: 42px;
+        font-weight: 600;
+    }
+    h4{
+        font-size: 28px;
+        font-weight: 600;
     }
     
 }
